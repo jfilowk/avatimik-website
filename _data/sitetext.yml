@@ -1,0 +1,359 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: Welcome to Avatimik GK!
+    text: It's Nice To Meet You
+    button: Tell Me More
+    buttonlink: "#services"
+
+  services:
+    title: "Services"
+    text: "Avatimik GK offers a wide range of software development and data engineering services tailored to meet the evolving needs of businesses and individuals. From mobile application development to sophisticated data solutions, our expertise is at your service."
+    section: services
+    list:
+      - title: "Android Development"
+        desc: "We specialize in crafting custom Android applications designed to enhance user experience, improve operational efficiency, and open new revenue streams for your business."
+        icon: fa-brands fa-android
+      - title: "iOS Development"
+        desc: "Our team develops sleek, user-friendly iOS applications that align with your business goals, ensuring a seamless experience for iPhone and iPad users."
+        icon: fa-brands fa-apple
+      - title: "Data Engineering"
+        desc: "We provide comprehensive data engineering services, including data warehousing, ETL processes, big data processing, and analytics solutions to help you make informed decisions based on insightful data."
+        icon: fa-solid fa-database
+
+  portfolio:
+    title: "Portfolio"
+    text: "Explore our curated selection of projects showcasing our expertise in software development and data engineering solutions across various industries."
+    section: portfolio
+    closebutton: "Close Project"
+
+  timeline:
+    title: "Timeline"
+    text: "Journey through Avatimik GK's milestones and achievements that define our growth and commitment to excellence."
+    section: timeline
+    events:
+      - title: "Freelance Beginnings"
+        year: "2019-2024"
+        desc: "Our journey began in the freelance world, where we honed our skills and built a foundation of trust with early clients through bespoke software solutions."
+        image: assets/img/timeline/1.jpg
+      - title: "Establishment of Avatimik GK"
+        year: "March 2024 - Present"
+        desc: "Avatimik GK was officially founded, marking a new chapter in our mission to deliver exceptional software development and data engineering services."
+        image: assets/img/timeline/2.jpg
+        align: right
+    end: "Be Part <br> of Our <br> Story!"
+
+  about:
+    title: "About Us"
+    text: "our story"
+    body: "Avatimik GK is driven by a passion for technology and innovation. Our team is dedicated to creating solutions that empower businesses and individuals to achieve their goals."
+    section: about
+
+  clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: "yes"
+    list:
+      - title: ""
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo:
+
+  team:
+    title: "OUR AMAZING TEAM"
+    text: "Meet the passionate individuals behind Avatimik GK. Each team member brings a unique set of skills and experiences to our company, driving innovation and excellence in every project."
+    subtext: "At Avatimik GK, we believe in the power of teamwork and collaboration. Our diverse backgrounds and expertise allow us to tackle challenges creatively and deliver superior results."
+    section: team
+    people:
+      - name: "Javier García"
+        role: "Representative Member & Software Engineer"
+        image: assets/img/team/1.jpg
+        social:
+          - url: https://www.linkedin.com/in/javiergarciahormigo/
+            icon: fab fa-linkedin-in
+      - name: "Akane Arai"
+        role: "Advisor"
+        image: assets/img/team/2.jpg
+
+  contact:
+    title: "Contact Us"
+    text: "Get in Touch"
+    section: contact
+    name: "Name*"
+    name-validation: "Please enter your name."
+    email: "Email*"
+    email-validation: "Please enter your email address."
+    phone: "Phone Number"
+    phone-validation: "Please enter your phone number."
+    message: "Message*"
+    message-validation: "Please enter a message."
+    subject: "Contact Form Submission"
+    submit: "Send Message"
+
+  footer:
+    legal: "Privacy Policy"
+    social:
+
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+# Spanish
+# -------
+es: &DEFAULT_ES
+  header:
+    title: ¡Bienvenido a nuestro Estudio!
+    text: Es un placer conocerle
+    button: Ver más
+    buttonlink: "#servicios"
+
+  services:
+    title: "Servicios"
+    text: "Lorem ipsum"
+    section: servicios
+    list:
+      - title: "Comercio Electrónico"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+      - title: "Diseño Responsivo"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-laptop
+      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+        desc: "Su descripción aquí, soporte completo de **Markdown**"
+        icon: fab fa-markdown
+
+  portfolio:
+    title: "Portafolio"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    section: portafolio
+    closebutton: "Cerrar Proyecto"
+
+  timeline:
+    title: "Cronología"
+    text: "Lorem ipsum timeline"
+    section: cronologia
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Nuestro Humilde Comienzo"
+        year: "2009-2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/1.jpg
+        alt:
+      - title: "Una Agencia nace"
+        year: "March 2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/2.jpg
+        alt:
+      - title: "La plantilla Jekyll es creada"
+        year: "2019"
+        desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
+      - title: "Título"
+        year: "2009-2011"
+        desc: "Su descripción aquí, **Markdown** es soportado completamente."
+        image: assets/img/timeline/4.jpg
+        alt:
+        # you can enforce the alignment
+        align: right
+    end: "¡Se parte <br> de Nuestra <br> Historia!"
+
+  about:
+    title: "Sobre nosotros"
+    text: "nuestra historia"
+    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    section: nosotros
+
+  clients:
+    section: clientes
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "envato"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/envato.jpg
+      - title: "designmodo"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/designmodo.jpg
+      - title: "themeforest"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/themeforest.jpg
+      - title: "Creative Market"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/creative-market.jpg
+
+  team:
+    title: "NUESTRO INCREÍBLE EQUIPO"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    section: equipo
+    people:
+      - name: "Kay Garland"
+        role: "Lead Designer"
+        image: assets/img/team/500x500.jp
+      - name: "Larry Parker"
+        role: "Lead Marketer"
+        image: assets/img/team/2.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Diana Perterson"
+        role: "Lead Developer"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+
+  contact:
+    title: "Contáctenos"
+    text: "Lorem ipsum or call 123456789"
+    section: contacto
+    name: "Nombre*"
+    name-validation: "Por favor ingrese su nombre."
+    email: "Correo Electrónico*"
+    email-validation: "Por favor ingrese su correo electrónico."
+    phone: "Número Telefónico*"
+    phone-validation: "Por favor ingrese su número telefónico."
+    message: "Mensaje*"
+    message-validation: "Por favor escriba un mensaje."
+    subject: "Envío del formulario de contacto"
+    submit: "Enviar Mensaje"
+
+  footer:
+    legal: "Política de Privacidad"
+    social:
+      - url: https://twitter.com
+        icon: "fab fa-twitter"
+      - url: https://facebook.com
+        icon: "fab fa-facebook-f"
+      - url: https://linkedin.com
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/raviriley/agency-jekyll-theme
+        icon: "fab fa-github"
+      - url: https://instagram.com
+        icon: "fab fa-instagram"
+es-ES:
+  <<: *DEFAULT_ES
+es-CO:
+  <<: *DEFAULT_ES
+
+
+jp: &DEFAULT_JP
+  header:
+    title: Avatimik GKへようこそ！
+    text: お会いできて嬉しいです
+    button: もっと詳しく
+    buttonlink: "#services"
+
+  services:
+    title: "サービス"
+    text: "Avatimik GKは、ビジネスや個人の進化するニーズに合わせてカスタマイズされたソフトウェア開発とデータエンジニアリングの幅広いサービスを提供しています。モバイルアプリケーション開発から洗練されたデータソリューションまで、私たちの専門知識をご利用いただけます。"
+    section: services
+    list:
+      - title: "Android開発"
+        desc: "ビジネスのユーザーエクスペリエンスを向上させ、運用効率を改善し、新たな収益源を開拓するために設計されたカスタムAndroidアプリケーションの開発を専門としています。"
+        icon: fa-brands fa-android
+      - title: "iOS開発"
+        desc: "ビジネス目標に合わせたスリークでユーザーフレンドリーなiOSアプリケーションを開発し、iPhoneおよびiPadユーザーにシームレスな体験を提供します。"
+        icon: fa-brands fa-apple
+      - title: "データエンジニアリング"
+        desc: "データウェアハウジング、ETLプロセス、ビッグデータ処理、分析ソリューションを含む包括的なデータエンジニアリングサービスを提供し、洞察に富んだデータに基づいて情報に基づいた意思決定を支援します。"
+        icon: fa-solid fa-database
+
+  portfolio:
+    title: "ポートフォリオ"
+    text: "様々な業界でのソフトウェア開発およびデータエンジニアリングソリューションの専門知識を示すプロジェクトの厳選されたセレクションを探索してください。"
+    section: portfolio
+    closebutton: "プロジェクトを閉じる"
+
+  timeline:
+    title: "タイムライン"
+    text: "成長と卓越性へのコミットメントを定義するAvatimik GKのマイルストーンと実績を通じての旅。"
+    section: timeline
+    events:
+      - title: "フリーランスの始まり"
+        year: "2019-2024"
+        desc: "私たちの旅はフリーランスの世界で始まり、特別なソフトウェアソリューションを通じて早期のクライアントとの信頼の基盤を築き、スキルを磨きました。"
+        image: assets/img/timeline/1.jpg
+      - title: "Avatimik GKの設立"
+        year: "2024年3月 - 現在"
+        desc: "Avatimik GKが正式に設立され、卓越したソフトウェア開発およびデータエンジニアリングサービスを提供するという私たちの使命に新しい章が始まりました。"
+        image: assets/img/timeline/2.jpg
+        align: right
+    end: "私たちの<br>スト
+
+    about:
+    title: "私たちについて"
+    text: "私たちの物語"
+    body: "Avatimik GKは、技術と革新への情熱を持っています。私たちのチームは、ビジネスや個人が目標を達成できるように支援するソリューションを創出することに専念しています。"
+    section: about
+
+  clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: "はい"
+    list:
+      - title: ""
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: 
+
+  team:
+    title: "私たちの素晴らしいチーム"
+    text: "Avatimik GKを支える情熱的な個々の人々に会いましょう。各チームメンバーは、革新と卓越性を推進する独自のスキルセットと経験を会社にもたらします。"
+    subtext: "Avatimik GKでは、チームワークと協力の力を信じています。私たちの多様なバックグラウンドと専門知識により、創造的に課題に取り組み、優れた結果を提供することができます。"
+    section: team
+    people:
+      - name: "Javier García"
+        role: "代表メンバー＆ソフトウェアエンジニア"
+        image: assets/img/team/1.jpg
+        social:
+          - url: https://www.linkedin.com/in/javiergarciahormigo/
+            icon: fab fa-linkedin-in
+      - name: "Akane Arai"
+        role: "アドバイザー"
+        image: assets/img/team/2.jpg
+
+  contact:
+    title: "お問い合わせ"
+    text: "お問い合わせください"
+    section: contact
+    name: "名前*"
+    name-validation: "名前を入力してください。"
+    email: "メールアドレス*"
+    email-validation: "メールアドレスを入力してください。"
+    phone: "電話番号"
+    phone-validation: "電話番号を入力してください。"
+    message: "メッセージ*"
+    message-validation: "メッセージを入力してください。"
+    subject: "お問い合わせフォーム送信"
+    submit: "メッセージを送る"
+
+  footer:
+    legal: "プライバシーポリシー"
+    social: 
+
+jp-JP:
+  <<: *DEFAULT_JP
